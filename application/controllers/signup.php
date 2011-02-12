@@ -1,6 +1,6 @@
 <?php
 
-class Signup extends Controller {
+class Signup extends CI_Controller {
 	
 	public function index() {
 		// TODO: tutto
