@@ -1,3 +1,10 @@
 This is an online manga reader based on the CodeIgniter PHP framework
 
 Please note that this is NOT working at the moment, since I have to complete a lot of stuff
+
+Missing stuff:
++ Upload section layout
++ View layout
++ Flash news in the home page
++ Admin Panel
++ Series info layout & code
