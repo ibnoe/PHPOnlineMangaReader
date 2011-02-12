@@ -1,0 +1,49 @@
+body {
+	margin: 0 auto;
+	background-color: white;
+}
+
+#login_bg {
+	margin: 75px auto;
+	width: 502px;
+	height: 297px;
+	background-image: url('../images/login_bg.png');
+}
+
+#form_div {
+	margin: 20px;
+	padding: 80px 30px 80px 30px;
+}
+
+label {
+	display: block;
+	color: grey;
+	font-family: 'Verdana', Arial, Helvetica, sans-serif; 
+	margin-bottom: 6px;
+}
+
+input[type="text"], input[type="password"] {
+	background-image: url('../images/input_bg.png');
+	border: 1px solid;
+	border-color: lightgrey;
+}
+
+input[type="text"] {
+	padding: 0.6em;
+	width: 380px;
+	margin-bottom: 10px;
+
+}
+
+input[type="password"] {
+	padding: 0.6em;
+	width: 380px;
+}
+
+input[type="submit"] {
+	border:none;
+	cursor: pointer;
+	width: 193px;
+	height: 39px;
+	background-image: url('../images/sub_butt.png');
+}
