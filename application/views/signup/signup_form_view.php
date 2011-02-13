@@ -7,6 +7,9 @@
 <body>
 
 	<?php
+	
+		echo validation_errors();
+		
 		echo form_open('signup');
 		echo 'Username: <br />' . form_input('username') . '<br />';
 		echo 'Password: <br />' . form_password('password') . '<br />';
