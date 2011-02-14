@@ -42,7 +42,7 @@ class Signup extends CI_Controller {
 	
 	public function is_unique_email($str) 
 	{
-		$where = array('username' => $str);
+		$where = array('email' => $str);
 		$query = $this->db->select('email')->where($where)->from('utenti')->get();
 		if ($query->num_rows() != 0)
 		{
