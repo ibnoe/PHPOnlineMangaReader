@@ -11,8 +11,11 @@ class Signup_model extends CI_Model {
 			'email' => $email
 		);
 		
-		$this->db->insert('utenti', $data);
 		
+		if ($this->db->insert('utenti', $data))
+			return true;
+		else
+			return false;
 	}
 	
 }

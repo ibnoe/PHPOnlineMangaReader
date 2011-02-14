@@ -9,6 +9,8 @@
 	<?php
 	
 		echo validation_errors();
+		if ($success_message)
+			echo $success_message;
 		
 		echo form_open('signup');
 		echo 'Username: <br />' . form_input('username') . '<br />';
